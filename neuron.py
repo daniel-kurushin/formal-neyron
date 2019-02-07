@@ -69,3 +69,9 @@ if __name__ == '__main__':
         print ("Weights are = %s, c = %s" % ([round(_,2) for _ in f.w], f.c))
         for x, y in D:
             print ("y' = %s, y = f(%s) = %s" % (y, x, round(f(x))))
+
+
+    f = Neuron(CHARS, act_f=foo_l)
+    print ("Weights are = %s, c = %s" % ([round(_,2) for _ in f.w], f.c))
+    for x, y in CHARS:
+        print ("y' = %s, y = f(%s) = %s" % (y, x, round(f(x))))
