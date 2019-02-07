@@ -63,7 +63,7 @@ class Neuron(object):
       if self.c > 10000: break
 
 if __name__ == '__main__':
-    for D, foo in [(D1, sigma_p), (D2, sigma_l), (D3, sigma_s)]:
+    for D, foo in [(D1, foo_p), (D2, foo_l), (D3, foo_s)]:
     
         f = Neuron(D, act_f=foo)
         print ("Weights are = %s, c = %s" % ([round(_,2) for _ in f.w], f.c))
