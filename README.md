@@ -1,7 +1,7 @@
 # formal-neyron
 Very simple neuron example for students
 
-This program is aided to demonstrate basics of neural networking.
+This program is aided to demonstrate basics of neural networking...
 
 Class Neuron can be "teached" to recognize pattern X with 
 vector D. Inputs are 1/0, output 1/0.
